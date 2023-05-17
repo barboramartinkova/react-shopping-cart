@@ -48,6 +48,15 @@ npm start
 /* To run the tests */
 npm run test
 
+/* To run the cypress tests that run on production link*/
+npm cypress:open
+
+/* To run the cypress tests headlessly*/
+npm cypress:headless
+
+/* To run the cypress tests in docker image*/
+npm run cypress:docker
+
 ```
 
 ### Copyright and license
